@@ -9,16 +9,6 @@ function App() {
       id: 1,
       text1: "Improve your front-end skills by building projects",
       text2: "Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"
-    },
-    {
-      id: 2,
-      text1: "Hola",
-      text2: "Scan the code to visit Frontend Mentor and take your coding skills to the next level"
-    },
-    {
-      id: 3,
-      text1: "oe",
-      text2: "Scan the code to visit Frontend Mentor and take your coding skills to the next level"
     }
   ];
 
