@@ -1,0 +1,42 @@
+article {
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 15px;
+    padding: 8px;
+    border-radius: 15px;
+    width: auto;
+    font-size: .8rem;
+    align-items: center;
+    width: max-content
+
+}
+
+article header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+article header span{
+    color: gray;
+    /* font-size: 12px; */
+    opacity: .6;
+}
+
+article img {
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+article button {
+    font-weight: bold;
+    margin-left: 12px;
+    border: 0;
+    padding: 6px 16px;
+    border-radius: 999px;
+    /* font-size: 12px; */
+
+}
