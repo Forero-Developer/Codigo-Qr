@@ -1,22 +1,14 @@
-import './TargetQr.css';
-const TargetQr = () => {
+import "./TargetQr.css";
+const TargetQr = ({ text1, text2 }) => {
   return (
-    <div className="container-principal">
-      <div className="container-target">
-      <img src="/image-qr-code.png" alt="Logo"/>
-        <div className="textos">
-
-        <h3 className="text1">Improve your front-end skills
-          by building proyects
-        </h3>
-        <p className="text2">Scan the QR code to visit
-          Fronted Mentor and take your coding skills
-          to the next level
-        </p>
-        </div>
+    <div className="container-target">
+      <img src="/image-qr-code.png" alt="Logo" />
+      <div className="textos">
+        <h3 className="text1">{text1}</h3>
+        <p className="text2">{text2}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TargetQr
+export default TargetQr;
