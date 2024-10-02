@@ -7,8 +7,23 @@ function App() {
   const qrData = [
     {
       id: 1,
-      text1: "Improve your front-end skills by building projects",
-      text2: "Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"
+      text1: "Alberto",
+      text2: "larabel"
+    },
+    {
+      id: 2,
+      text1: "Alberto",
+      text2: "larabel"
+    },
+    {
+      id: 3,
+      text1: "Alberto",
+      text2: "larabel"
+    },
+    {
+      id: 4,
+      text1: "Alberto",
+      text2: "larabel"
     }
   ];
 
