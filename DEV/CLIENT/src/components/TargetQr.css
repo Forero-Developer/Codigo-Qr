@@ -1,0 +1,48 @@
+
+.container-target img{
+    width: 220px;
+    height: 210px;
+    border-radius: 10px;
+}
+
+.container-target {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 225px;
+    height: 380px ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container-target:hover{
+    transform: translateY(-3px);
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p{
+    color: gray;
+    font-size: 13px;
+    
+}
+
+.text2 {
+    overflow-wrap: break-word;
+    display: -webkit-box; /* Required for Safari */
+    -webkit-box-orient: vertical; /* Required for Safari */
+    -webkit-line-clamp: 5; /* Change 3 to the desired number of lines */
+    overflow: hidden; /* Hides the overflow */
+}
+
+.text1
+ {
+    overflow-wrap: break-word;
+
+ }
